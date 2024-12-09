@@ -1,0 +1,146 @@
+/* Custom Styles */
+.selfie-size {
+    width: 20%;
+    height: 100%;
+}
+
+.header-bgr {
+    background-color: #228B22;
+}
+
+.L-bgr {
+    background-color: #117A11;
+}
+
+.W-bgr {
+    background-color: #66493A;
+}
+
+.S-bgr {
+    background-color: #708090;
+}
+
+.container.custom-container {
+    height: 250px;
+	padding: 0px;
+	margin-right: -15px;
+    margin-left: -15px;
+}
+
+.txtc {
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col1, .col2, .col3 {
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: flex-start; 
+    padding: 10px;
+}
+
+.col1 {
+    width: 30%;
+}
+
+.col2 {
+    width: 40%;
+}
+
+.col3 {
+    width: 30%;
+    height: 100%;
+}
+
+.image-size {
+    width: 100%;
+    height: 100%;
+}
+
+.row-width-1 {
+	margin-left: 15px;
+	margin-right: 15px;
+    width: 70%;
+}
+
+.row-width-2 {
+    width: 20%;
+}
+
+.tabgone{
+	
+}
+
+.tabshrink{
+	
+}
+
+.phonegone{
+	
+}
+
+.phoneshrink{
+	
+}
+
+/* Bootstrap Overrides Without !important */
+.float-start {
+    float: left;
+}
+
+.rounded {
+    border-radius: .25rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container.custom-container {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row > .col1, .row > .col2, .row > .col3 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col1, .col2, .col3 {
+    flex: 1;
+    max-width: 100%;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
